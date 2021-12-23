@@ -1,4 +1,7 @@
-//Einfacher Code mit Blink durch millis() und Serieller Ausgabe
+//Code fuer ein einfaches Thermometer mit einem VFD Display unbekannter Herkunft
+//Angesteuert mit 74HC595 und UDN2981 High Side Treibern
+//Thermo-Sensor ist ein DS18B20
+//Realisiert mittels Arduino Pro Mini mit ATmega168 auf 5V mit 16MHz
 
 #include <Arduino.h>
 

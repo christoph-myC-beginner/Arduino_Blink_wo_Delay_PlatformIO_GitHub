@@ -1,4 +1,5 @@
 //Einfacher Code mit Blink durch millis() und Serieller Ausgabe
+//Simple "Vorlage"
 
 #include <Arduino.h>
 

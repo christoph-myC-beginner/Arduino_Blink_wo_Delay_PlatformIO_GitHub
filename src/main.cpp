@@ -2,8 +2,14 @@
 
 #include <Arduino.h>
 
+<<<<<<< HEAD
 #include <OneWire.h>
 #include <DallasTemperature.h>
+=======
+//variables declarations
+int toggleInterval = 200; //Zeit, die die LED an bzw aus ist in Millisekunden
+int msgInterval = 1000;
+>>>>>>> 0b4e6a1307d2f6a6bd2b7cc294e806e66df17f7c
 
 OneWire oneWire(2); //OneWire on Pin(Number)
 DallasTemperature DS18B20(&oneWire);

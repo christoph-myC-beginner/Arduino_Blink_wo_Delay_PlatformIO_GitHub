@@ -4,7 +4,7 @@
 
 //variables declarations
 int toggleInterval = 200; //Zeit, die die LED an bzw aus ist in Millisekunden
-int msgInterval = 2000;
+int msgInterval = 1000;
 
 bool keepFlag = 0;
 unsigned long keepHmillis;
